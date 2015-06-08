@@ -219,7 +219,6 @@ galleryObject.prototype.scroll = function() {
                  * Reset amount to 0
                  */
                 self.amount_scrolled = 0;
-                console.log(self.amount_scrolled);
             }
         } else {
             /**
@@ -232,7 +231,17 @@ galleryObject.prototype.scroll = function() {
     return self;
 }
 
-(function() {
+
+$(document).ready(function() {
+
+    /**
+     * Load Social Sharing icons
+     */
+    Socialite.load();
+
+    /**
+     * Load Galleries
+     */
     galleries.forEach(function(gallery, index, array) {
         var each_gallery = new galleryObject({
             id: gallery.id,
@@ -242,4 +251,6 @@ galleryObject.prototype.scroll = function() {
 
         each_gallery.scroll();
     });
-})();
+
+
+});

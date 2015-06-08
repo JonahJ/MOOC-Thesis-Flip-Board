@@ -30,6 +30,10 @@ img#header-img {
     max-width: none;
 }
 
+section#social{
+    text-align: center;
+    margin: 0 auto !important;
+}
 section.thesis-content{
     margin: 0 auto;
     width: 60%;
@@ -37,4 +41,14 @@ section.thesis-content{
 section.thesis-content > p{
     text-align: left;
     font-size: 1.1em;
+}
+
+
+
+img.circle{
+    /*pointer-events: none;*/
+    width: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
 }
