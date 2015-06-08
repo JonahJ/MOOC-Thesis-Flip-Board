@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    margin: 0 0;
+    font-family: 'Helvetica Neue', Helvetica, serif;
+    font-weight: 300;
+}
+
+header > h1 {
+    font-weight: 400;
+    font-size: 6em;
+    line-height: 1.0em;
+}
+
+header > h2 {
+    font-weight: 300;
+}
+
+.by::before {
+    font-style: italic;
+    content: "by ";
+}
+
+img {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img#header-img {
+    max-width: none;
+}
+
+section.thesis-content{
+    margin: 0 auto;
+    width: 60%;
+}
+section.thesis-content > p{
+    text-align: left;
+    font-size: 1.1em;
+}
