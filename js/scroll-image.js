@@ -97,6 +97,8 @@ var galleryObject = function(options) {
 
     self.header_length = $("header").height(); //document.getElementsByTagName("header")[0].scrollHeight;
     self.header_length -= $("#header-img").height();
+    self.header_length -= $("#social").height();
+
 
     /**
      * For Scroll
