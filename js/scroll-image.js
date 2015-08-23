@@ -233,7 +233,6 @@ galleryObject.prototype.scroll = function() {
     return self;
 }
 
-
 $(document).ready(function() {
 
     /**
@@ -253,6 +252,4 @@ $(document).ready(function() {
 
         each_gallery.scroll();
     });
-
-
 });
